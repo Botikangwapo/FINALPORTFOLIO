@@ -249,8 +249,14 @@ body.dark {
 .social a i{
   color: var(--text-color);
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  transition: 0.2s ease;
 }
+
+ .social a i:hover{
+  color: var(--accent-color);
+  transform: translateY(-8px);
+ }
 
 .lines {
   display: none;       /* para row */
@@ -907,6 +913,8 @@ footer{
  .brand p{
   display: none;
  }
+
+
 }
 
 
