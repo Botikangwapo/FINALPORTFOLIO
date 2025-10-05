@@ -245,7 +245,7 @@ body.dark {
 .social a i{
   color: var(--secondary-text);
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 2.3rem;
   transition: 0.2s ease;
 }
 
@@ -283,6 +283,7 @@ body.dark {
 .hero-cta .cta-body{
   display: flex;
   gap: 10px;
+  width: 100%;
 }
 
 .btn-light {
@@ -499,7 +500,7 @@ body.dark {
 }
 
 .location div i{
-  color: var(--accent-color);
+   color: #2563eb;
 }
 
 .project{
@@ -551,7 +552,7 @@ body.dark {
 
 .project-body .card .title-grap i{
   font-size: 1.7rem;
-  color: var(--accent-color);
+  color: #2563eb;
 }
 
 .project-body .card  button{
