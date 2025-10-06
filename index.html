@@ -53,7 +53,7 @@
       <div data-aos="fade-right" data-aos-duration="800"  class="hero-left">
         <h1 class="hero-title">I'm Jervin Villones</h1>
         <p class="hero-desc">
-           Specializing become Front-end Developer i'm dedicated to pursuing my studies and achieving my academic goals. I am always eager to learn new things and improve myself both academically and personally.
+          Specializing in Front-End Development, I am dedicated to pursuing my studies and achieving my academic goals. I am always eager to learn new things and continuously improve myself both academically and personally.
         </p>
         <div class="hero-cta">
           <div class="cta-body">
@@ -69,7 +69,7 @@
       </div>
 
       <div data-aos="fade-right" data-aos-duration="800"  class="hero-right" >
-        <img class="hero-image" src="/img/Adobe Express - file (22).png" alt="Profile image" />   
+        <img class="hero-image" src="img/Adobe Express - file (22).png" alt="Profile image" />   
       </div>
     </div>
   </section>
@@ -257,7 +257,7 @@
            <div class="card">
                <div class="title-grap">
                      <i class="fa-solid fa-pen-nib"></i>
-                     <h2>Graphic Designer</h2>
+                     <h2>UI/UX</h2>
                </div>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis dolores assumenda hic dolor obcaecati.</p>
               <button data-img="img\Screenshot 2025-09-17 175037.png" data-link="https://mjdev-vill.vercel.app/">View</button>
@@ -298,24 +298,26 @@
          <h2>Contact Me</h2>
   <p>If you have a project or want to connect, feel free to send me a message.</p>
 
-  <form class="contact-form">
-    <div class="form-group">
-      <label for="name">Full Name</label>
-      <input type="text" id="name" placeholder="Your Name" required>
-    </div>
+  <form class="contact-form" action="send_email.php" method="POST">
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+  </div>
 
-    <div class="form-group">
-      <label for="email">Email Address</label>
-      <input type="email" id="email" placeholder="your@email" required>
-    </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="your@email" required>
+  </div>
 
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea id="message" rows="5" placeholder="Write your message" required></textarea>
-    </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+  </div>
 
-    <button type="submit">Send Message</button>
-  </form>
+  <button type="submit">Send Message</button>
+</form>
+
+
   </section>
   
 
