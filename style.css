@@ -10,7 +10,7 @@ html, body {
   scroll-behavior: smooth;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   color: var(--text-color); 
-  background-color: #060226;
+  background-color: #0c0826;
   line-height: 1.5;
   transition: all ease 0.5s;
 }
