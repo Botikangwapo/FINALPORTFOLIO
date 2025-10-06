@@ -10,17 +10,19 @@ html, body {
   scroll-behavior: smooth;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   color: var(--text-color); 
-  background-color: #0c0826;
+  background-color: var(--devision-bg);
   line-height: 1.5;
   transition: all ease 0.5s;
 }
 
-:root {       
+:root {
+  --bg-color: #0b1125;        
   --text-color: #e2e8f0;        
   --secondary-text: #94a3b8;    
   --accent-color: linear-gradient(to right, #ffb300, #ffd900);    
   --card-bg: #1e293b;           
-  --border-color: #334155 1px solid;        
+  --border-color: #334155 1px solid;      
+  --devision-bg: #0a1129;     
   --shadow-color: 0 4px 12px rgba(84, 96, 113, 0.2);
   --blur-color: #0a112957;
   --gradient-dark: linear-gradient(135deg, #07061b, #0c052a, #020b1c);
