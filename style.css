@@ -273,7 +273,7 @@ html, body {
 
  .social a i:hover{
   color: #ffb300;
-  transform: translateY(-8px);
+  transform: scale(1.2);
  }
 
 .hero-left {
@@ -544,7 +544,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -559,6 +559,12 @@ html, body {
   padding: 1rem;
   gap: 1.7rem;
   border-radius: 10px;
+  background-color: rgb(1, 1, 55);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-body .card:hover{
+  transform: scale(1.04);
 }
 
 .project-body .card p{
@@ -632,7 +638,7 @@ html, body {
 }
 
 .modal-content {
-  background: var(--bg-color);
+  background: rgb(1, 1, 55);
   backdrop-filter: blur(10px);
   border-radius: 12px;
   max-width: 600px;
@@ -716,6 +722,7 @@ footer{
 
   .box1{
     flex-wrap: wrap;
+    width: 90%;
   }
 
   .skills{
@@ -781,6 +788,10 @@ footer{
     height: auto;
     margin-top: 45rem;
   }
+
+ .project-body{
+  width: 90%;
+ }
 
 }
 
