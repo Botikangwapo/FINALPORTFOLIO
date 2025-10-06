@@ -293,6 +293,7 @@ html, body {
   letter-spacing: -0.02em;
   margin-bottom: 0.25rem;
   font-family: "Sigmar", sans-serif;
+  color: #bbbcbd;
 }
 
 
@@ -559,7 +560,7 @@ html, body {
   padding: 1rem;
   gap: 1.7rem;
   border-radius: 10px;
-  background-color: rgb(1, 1, 55);
+  background-color: #08083f;
   transition: all 0.3s ease-in-out;
 }
 
@@ -638,7 +639,7 @@ html, body {
 }
 
 .modal-content {
-  background: rgb(1, 1, 55);
+  background: #08083f;
   backdrop-filter: blur(10px);
   border-radius: 12px;
   max-width: 600px;
