@@ -56,10 +56,10 @@ html, body {
   align-items: center;
   padding: 12px 0;
   z-index: 999;
-  position: fixed;
   transition: background-color 0.7s ease-in-out;
   backdrop-filter: blur(10px);
   background-color: var(--blur-color);
+  position: fixed;
 }
 
 .nav {
@@ -804,6 +804,31 @@ footer{
   width: 90%;
  }
 
+ .box1{
+   width: 90%;
+
+ }
+ .hero{
+  height: auto;
+ }
+
+ .hero-title{
+  font-size: 2.8rem;
+ }
+
+ .hero-inner{
+  height: 700px;
+ }
+ .hero-right{
+  width: 100%;
+
+ }
+
+ .hero-image{
+   width: 100%;
+}
+
+
 }
 
 @media (max-width: 425px) {
@@ -1034,7 +1059,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    gap: 8px;
+    gap: 0.8rem;
     width: 1200px;
     height: 800px;
 }
@@ -1046,6 +1071,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
+  transition: 0.5s ease-in-out all;
 }
 
 .div2 {
@@ -1057,6 +1083,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
+   transition: 0.5s ease-in-out all;
 }
 
 .div3 {
@@ -1068,6 +1095,7 @@ button:hover {
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
+   transition: 0.5s ease-in-out all;
 }
 
 .div4 {
@@ -1079,6 +1107,7 @@ button:hover {
   background-position: center;
   background-image: url(img/Screenshot\ 2025-09-20\ 172617.png);
   filter: grayscale(100%);
+   transition: 0.5s ease-in-out all;
 }
 
 .div5 {
@@ -1090,6 +1119,7 @@ button:hover {
   background-position: center;
   background-image: url(img/Screenshot\ 2025-09-17\ 174620.png);
   filter: grayscale(100%);
+   transition: 0.5s ease-in-out all;
 }
 
 .div6 {
@@ -1101,40 +1131,42 @@ button:hover {
   background-position: center;
   background-image: url(img/Screenshot\ 2025-09-17\ 174833.png);
   filter: grayscale(100%);
+   transition: 0.5s ease-in-out all;
 }
 
 
 .div1:hover{
-   transition: 0.5s ease-in-out all;
    filter: grayscale(0%);
+   transform: scale(1.04);
 }
 
 
 .div2:hover{
-   transition: 0.5s ease-in-out all;
    filter: grayscale(0%);
+      transform: scale(1.04);
 }
 
 
 .div3:hover{
-   transition: 0.5s ease-in-out all;
-   filter: grayscale(0%);
+      filter: grayscale(0%);
+      transform: scale(1.04);
 }
 
 .div4:hover{
-   transition: 0.5s ease-in-out all;
-   filter: grayscale(0%);
+
+     filter: grayscale(0%);
+     transform: scale(1.04);
 }
   
 .div5:hover{
-   transition: 0.5s ease-in-out all;
-   filter: grayscale(0%);
+      filter: grayscale(0%);
+   transform: scale(1.04);
 }
   
 
 .div6:hover{
-   transition: 0.5s ease-in-out all;
-   filter: grayscale(0%);
+     filter: grayscale(0%);
+      transform: scale(1.04);
 }
   
         
