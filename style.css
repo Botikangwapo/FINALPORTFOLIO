@@ -389,6 +389,10 @@ html, body {
   justify-content: center;
 }
 
+.box-model .box-first h1 span{
+  color: #ffa600;
+}
+
 .box-model .box-second{
   font-size: 0.9rem;
 }
@@ -828,7 +832,6 @@ footer{
    width: 100%;
 }
 
-
 }
 
 @media (max-width: 425px) {
@@ -950,7 +953,7 @@ footer{
   }
   
   .parent{
-    height: 505px !important;
+    height: 450px !important;
   }
 
 }
