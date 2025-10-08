@@ -915,6 +915,10 @@ footer{
   .lines{
     display: flex;
   }
+  
+  .parent{
+    height: 505px !important;
+  }
 
 }
 
