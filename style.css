@@ -10,7 +10,7 @@ html, body {
   scroll-behavior: smooth;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   color: var(--text-color); 
-  background-color: var(--devision-bg);
+  background:var(--gradient-dark);
   line-height: 1.5;
   transition: all ease 0.5s;
 }
@@ -361,6 +361,7 @@ html, body {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  background-color: #04042c;
 }
 
 
@@ -931,7 +932,6 @@ footer{
   margin: 0 auto;
   text-align: center;
   height: auto;
-  background-color: var(--bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1007,3 +1007,124 @@ button {
 button:hover {
   background: #d1d5db;
 }
+
+.mother{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 5rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 8px;
+    width: 1200px;
+    height: 800px;
+}
+    
+.div1 {
+  grid-row: span 4 / span 4;
+  border-radius: 10px;
+  background-image: url(img/Screenshot\ 2025-09-17\ 175037.png);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.div2 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 1;
+  grid-row-start: 5;
+  border-radius: 10px;
+  background-image: url(img/Screenshot\ 2025-09-20\ 203350.png);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.div3 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 1;
+  grid-row-start: 9;
+  border-radius: 10px;
+  background-image: url(img/Screenshot\ 2025-09-20\ 203059.png);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.div4 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/Screenshot\ 2025-09-20\ 172617.png);
+  filter: grayscale(100%);
+}
+
+.div5 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 2;
+  grid-row-start: 5;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/Screenshot\ 2025-09-17\ 174620.png);
+  filter: grayscale(100%);
+}
+
+.div6 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/Screenshot\ 2025-09-17\ 174833.png);
+  filter: grayscale(100%);
+}
+
+
+.div1:hover{
+   transition: 0.5s ease-in-out all;
+   filter: grayscale(0%);
+}
+
+
+.div2:hover{
+   transition: 0.5s ease-in-out all;
+   filter: grayscale(0%);
+}
+
+
+.div3:hover{
+   transition: 0.5s ease-in-out all;
+   filter: grayscale(0%);
+}
+
+.div4:hover{
+   transition: 0.5s ease-in-out all;
+   filter: grayscale(0%);
+}
+  
+.div5:hover{
+   transition: 0.5s ease-in-out all;
+   filter: grayscale(0%);
+}
+  
+
+.div6:hover{
+   transition: 0.5s ease-in-out all;
+   filter: grayscale(0%);
+}
+  
+        
+
+        
+        
