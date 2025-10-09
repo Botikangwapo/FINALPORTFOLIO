@@ -855,6 +855,13 @@ footer{
 
 }
 
+@media (max-width: 370px){
+  .hero-image{
+    width: 450px;
+    height: 410px;
+  }
+}
+
 @media (max-width: 425px) {
   .hero-title {
     font-size: 5.5rem;
