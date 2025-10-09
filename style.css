@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0; padding: 0;
   -webkit-tap-highlight-color: transparent;
+  user-select: none;
  }
 
 html, body {
@@ -292,7 +293,7 @@ html, body {
   letter-spacing: -0.02em;
   margin-bottom: 0.25rem;
   font-family: "Sigmar", sans-serif;
-  color: #bbbcbd;
+  color: #d1d5db;
   position: relative;
 }
 
@@ -479,6 +480,7 @@ html, body {
 .text-content p{
   font-weight: 350;
   line-height: 1.6rem;
+  font-size: 1rem;
 }
 
 .content-left img{
@@ -604,6 +606,7 @@ html, body {
 
 .project-body .card p{
    color: var(--secondary-text);
+   font-size: 1rem;
 }
 
 .project-body .card .title-grap{
