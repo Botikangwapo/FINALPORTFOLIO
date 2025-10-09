@@ -18,12 +18,12 @@ html, body {
 :root {
   --bg-color: #0b1125;        
   --text-color: #e2e8f0;        
-  --secondary-text: #94a3b8;    
+  --secondary-text: #afbdcf91;    
   --accent-color: linear-gradient(to right, #ffb300, #ffd900);    
   --card-bg: #1e293b;           
   --border-color: #334155 1px solid;      
   --devision-bg: #0a1129;     
-  --shadow-color: 0 4px 12px rgba(84, 96, 113, 0.2);
+  --shadow-color: 0 0 30px rgba(0, 0, 0, 0.12);
   --blur-color: #0a112957;
   --gradient-dark: linear-gradient(135deg, #07061b, #0c052a, #020b1c);
 }
@@ -138,7 +138,7 @@ html, body {
 }
 
 .second-sidebar h2 span{
-  color: #2563eb;
+  color: #ffa600;
 }
 
 .div {
@@ -209,7 +209,7 @@ html, body {
   position: relative;
   width: 100%;
   height: 900px;
-  background: linear-gradient(135deg, #080c1b, #0c052a, #020b1c);
+  background: linear-gradient(135deg, #050813, #070318, #020b1c);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -236,7 +236,7 @@ html, body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #080c1b, #0c052a, #020b1c);
+  background: linear-gradient(135deg, #080c1b, #08041b, #020b1c);
   opacity: 0.8;
   z-index: 1;
 }
@@ -288,12 +288,28 @@ html, body {
 
 .hero-title {
   font-weight: 500; 
-  font-size: 4.4rem; 
+  font-size: 7rem; 
   line-height: 1;
   letter-spacing: -0.02em;
   margin-bottom: 0.25rem;
   font-family: "Sigmar", sans-serif;
   color: #bbbcbd;
+  position: relative;
+}
+
+.hero-title::before{
+  content: "MJDEV";
+  position: absolute;
+  color: transparent;              /* transparent fill */
+  -webkit-text-stroke: 1px white; /* 1px white border */
+  font-size: inherit;              /* optional: match parent size */
+  left: 3%;
+  top: 7%;
+  z-index: -1;
+}
+
+.hero-title span{
+  color: #ffa600;
 }
 
 
@@ -453,6 +469,7 @@ html, body {
   border-radius: 5px;
 }
 
+
 .text-content p{
   color: var(--secondary-text);
 }
@@ -579,7 +596,7 @@ html, body {
 
 .project-body .card:hover{
   transform: scale(1.04);
-  background-color: #051b4b;
+  background-color: #0a045f;
 }
 
 .project-body .card p{
@@ -837,7 +854,7 @@ footer{
 
 @media (max-width: 425px) {
   .hero-title {
-    font-size: 2.1rem;
+    font-size: 6rem;
     width: auto; 
   } 
 
