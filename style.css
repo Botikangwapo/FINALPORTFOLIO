@@ -24,7 +24,7 @@ html, body {
   --border-color: #334155 1px solid;      
   --devision-bg: #0a1129;     
   --shadow-color: 0 0 30px rgba(0, 0, 0, 0.12);
-  --blur-color: #0a112957;
+  --blur-color: #020e3321;
   --gradient-dark: linear-gradient(135deg, #07061b, #0c052a, #020b1c);
 }
 
@@ -176,9 +176,9 @@ html, body {
   position: fixed;
   top: 0;
   right: -100vw;  
-  width: 320px;
+  width: 270px;
   height: 100vh;
-  background: var(--bg-color);
+  background: #08041b;
   transition: right 0.5s ease;
   z-index: 1101;  
   }
@@ -266,7 +266,6 @@ html, body {
 
 .social a i{
   color: var(--secondary-text);
-  font-weight: 900;
   font-size: 2.3rem;
   transition: 0.2s ease;
 }
@@ -320,8 +319,8 @@ html, body {
 
 .hero-cta .cta-body{
   display: flex;
-  gap: 10px;
-  width: 100%;
+  gap: 8px;
+  width: auto;
 }
 
 .btn-light {
