@@ -479,8 +479,8 @@ html, body {
 
 .text-content p{
   font-weight: 350;
-  line-height: 1.6rem;
-  font-size: 1rem;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
 }
 
 .content-left img{
@@ -606,7 +606,7 @@ html, body {
 
 .project-body .card p{
    color: var(--secondary-text);
-   font-size: 1rem;
+   font-size: 0.9rem;
 }
 
 .project-body .card .title-grap{
