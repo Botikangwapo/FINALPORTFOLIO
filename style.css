@@ -449,7 +449,6 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: var(--shadow-color);
   padding: 0.5rem;
   border-radius: 5px;
   height: auto;
@@ -468,7 +467,6 @@ html, body {
 }
 
 .text-content .goal, .personal, .location{
-  box-shadow: var(--shadow-color);
   padding: 1rem;
   border-radius: 5px;
 }
@@ -506,6 +504,8 @@ html, body {
   margin: 0 auto;
   flex-direction: column;
   gap: 10PX;
+   background-color: #08083f;
+   border-radius: 10px;
 }
 
 .skills{
@@ -516,7 +516,6 @@ html, body {
   gap: 20px;
   margin: 0 auto;
   flex-wrap: wrap;
-  box-shadow: var(--shadow-color);
   padding: 1rem;
   border-radius: 5px;
 }
