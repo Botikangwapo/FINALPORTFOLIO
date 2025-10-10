@@ -49,49 +49,4 @@ menuLinks.forEach(link => {
     });
 });
 
-const modal = document.getElementById("modal");
-const modalImg = document.getElementById("modalImg");
-const closeBt = document.getElementById("closeBt");
-const viewSiteBtn = document.getElementById("viewSiteBtn");
-const buttons = document.querySelectorAll(".card button");
 
-let currentLink = ""; 
-
-buttons.forEach(btn => {
-  btn.addEventListener("click", () => {
-    const imgSrc = btn.getAttribute("data-img");
-    const siteLink = btn.getAttribute("data-link");
-
-    modalImg.src = imgSrc;
-    currentLink = siteLink; 
-
-    modal.classList.add("show");
-  });
-});
-
-closeBt.addEventListener("click", () => {
-  modal.classList.remove("show");
-  modalImg.src = "";
-  currentLink = "";
-});
-
-
-viewSiteBtn.addEventListener("click", () => {
-  if (currentLink) {
-    window.open(currentLink, "_blank"); 
-  }
-});
-
-
-window.addEventListener("click", (e) => {
-  if (e.target === modal) {
-    modal.classList.remove("show");
-    modalImg.src = "";
-    currentLink = "";
-  }
-});
-
-const toggleBtn = document.getElementById("theme-toggle");
-toggleBtn.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-});
