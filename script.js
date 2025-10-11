@@ -50,3 +50,19 @@ menuLinks.forEach(link => {
 });
 
 
+const openmodal = document.querySelectorAll(".viewBtn");
+const modals = document.querySelectorAll(".modal");
+const closemodal = document.querySelectorAll(".closemodal");
+
+
+openmodal.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+        modals[index].classList.add("add");
+    });
+});
+
+closemodal.forEach((btn, index) => {
+    btn.addEventListener("click", () => {
+        modals[index].classList.remove("add");
+    });
+});
